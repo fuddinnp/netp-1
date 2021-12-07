@@ -1,6 +1,14 @@
 /****************************** Responsive CSS **********************/
 @media (max-width:767px) {
 
+    .cloud-logos-img {
+        left: 22.7143px !important;
+    }
+    .cloud-logos-img img{
+        width: 154px !important;
+        height: 16px !important;
+    }
+
     .push-down-arrow {
         display: none;
     }
