@@ -1,6 +1,12 @@
 /****************************** Responsive CSS **********************/
 @media (max-width:767px) {
 
+    .contact-content-wraper {
+        grid-template-columns: 1fr;
+    grid-gap: 40px;
+    padding: 15px;
+    }
+
     .cloud-logos-img {
         left: 22.7143px !important;
     }

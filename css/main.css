@@ -1569,7 +1569,7 @@ input:focus~.highlight {
 .contact-netpace-detail-text {
     color: #005b81 !important;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 12px;
     text-decoration: none;
 }
 
@@ -3384,4 +3384,19 @@ footer .header-menu ul li {
 
     padding: 50px 0px;
 
+}
+.contact-content-wraper {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;  
+}
+.contact-content-wraper h4 {
+    color: #413829;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.contact-content-wraper .info-row {
+    margin-bottom: 20px;
 }
