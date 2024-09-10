@@ -422,14 +422,14 @@ yx-axis
 
 	/* theme: "dark" */
 
-	.mCS-dark.mCSB_scrollTools .mCSB_draggerRail{ background-color: #000; background-color: rgba(0,0,0,0.15); }
+	.mCS-dark.mCSB_scrollTools .mCSB_draggerRail{ background-color: #000; background-color: #b4b4b4; }
 
-	.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #000; background-color: rgba(0,0,0,0.75); }
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #b4b4b4;}
 
-	.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.85); }
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color: #b4b4b4; }
 
 	.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-	.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.9); }
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color: #b4b4b4; }
 
 	.mCS-dark.mCSB_scrollTools .mCSB_buttonUp{ background-position: -80px 0; }
 
@@ -1265,3 +1265,29 @@ yx-axis
 	.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color: #fff; background-color: rgba(255,255,255,0.9); }
 	
 	/* ---------------------------------------- */
+
+
+
+
+
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+	-ms-touch-action: auto;
+	    touch-action: auto;
+}
+
+.mCustomScrollBox {
+	-ms-touch-action: pan-x;
+	    touch-action: pan-x;
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal {
+	-ms-touch-action: auto;
+	    touch-action: auto;
+}
+
+.mCustomScrollBox.mCSB_horizontal {
+	-ms-touch-action: pan-y;
+	    touch-action: pan-y;
+}
